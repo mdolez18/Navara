@@ -1,0 +1,129 @@
+<!-- MRDNE MI (づ ◕‿◕ )づ --> 
+<!DOCTYPE html>
+<html lang="cs">
+ <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Kontakt - Navara</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=check_small" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+ <body>
+    <header class="header">
+        <a href="#top"><img src="rc_images/logo.png" alt="Logo" class="logo" ></a>
+        <nav> 
+           <input type="checkbox" id="menu-toggle" class="menu-toggle">
+           <label for="menu-toggle" class="menu-icon">☰</label>
+           <ul class="navbar"> 
+              <li><a href="#sluzby">Služby</a></li>
+              <li><a href="#o-nas">O nás</a></li>
+              <li><a href="https://www.bazos.cz/hodnoceni.php?idmail=5557707&idphone=3019076&jmeno=AUTONAVARA+HRU%C5%A0KY+U+BRNA" target="_blank">Nabídka</a></li>
+              <li class="button" class="kontakt"><a href="https://www.autonavara.cz/kontakt.html">Kontakt</a></li>
+           </ul>
+        </nav>
+     </header>
+<main>
+    <h2 class="no">(づ ◕‿◕ )づ <br><br></h2>
+<div class="split"> 
+  <div class="contact">
+        <h2>AUTONAVARA<br>Kontaktní údaje</h2>
+        <p class="info">
+            <strong>Tel.:</strong>
+            <a class="link" href="tel:+420604117217">604 117 217</a>
+            <br>
+            <strong>E-mail:</strong>
+            <a class="link" href="mailto:autonavara@email.cz">autonavara@email.cz</a>
+        </p>
+        <p class="info">
+            <strong>IČO:</strong>
+            08028931
+            <br>
+            <strong>Název subjektu:</strong>
+            Autonavara Hrušky s.r.o.
+            <br>
+            <strong>Spisova značka:</strong>
+            C 111512 vedená u rejstříkového soudu v Brne
+        </p>
+        <p class="info">
+            <strong>Sídlo:</strong> 
+            Hrušky u Brna 275, 683 52 Křenovice
+            <br>
+            <strong>Den zápisu do obchodního rejstříku:</strong>
+            27. 3. 2019
+        </p>
+        <p class="info">
+            <strong>Otevírací doba:</strong>
+            Naše otevírací doba se odvíjí podle vašich potřeb. Zavolejte nám a domluvíme se! :)
+        </p>
+    </div>
+  
+    <div class="map-div">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1844.8804383216395!2d16.835504213604096!3d49.1302722282878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4712e9b2a1163921%3A0x6af61d348210ab0d!2sAUTONAVARA%20NUOVO%20s.r.o.!5e0!3m2!1sen!2scz!4v1735925324945!5m2!1sen!2scz"
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    </div>
+</div>
+    <div class="relative-row">
+        <div class="proc-my">
+         <div><h3>Proč zrovna my?</h3></div>
+         <div>
+         <ul class="duvody">
+            <li><span class="material-symbols-outlined">
+               check_small
+               </span>Dlouholetá zkušenost</li>  <!--tadz pouzit takovy to ::before na ikonku pred-->
+            <li><span class="material-symbols-outlined">
+               check_small
+               </span>Dealerské ceny</li>
+            <li><span class="material-symbols-outlined">
+               check_small
+               </span>Vlastní servis</li>
+            <li><span class="material-symbols-outlined">
+               check_small
+               </span>Časová flexibilita</li>
+            <li><span class="material-symbols-outlined">
+               check_small
+               </span>Férový přístup</li>
+         </ul>
+        </div>
+        </div>
+        <div class="car-row">
+         <img src="rc_images/row.jpg" alt="rada-aut">
+        </div>
+      </div> 
+    </main>
+    <footer> 
+        <p id="credit">©2025 <span class="name">Matěj Doležal</span></p>
+      <p>Dotaz? <span class="orange">Zavolejte nám!</span> <br> <a class="telefon" href="tel:+420604117217">604 117 217</a></p>
+      <p>AUTONAVARA HRUŠKY s.r.o. <br> Hrušky u Brna 275, 683 52 Křenovice</p>
+     </footer>
+     <script>
+        // JavaScript to toggle the dropdown and hide it when a link is clicked
+        const dropdown = document.querySelector('nav');
+        const toggle = dropdown.querySelector('.menu-toggle');
+        const menu = dropdown.querySelector('.navbar');
+    
+        // Toggle dropdown visibility
+        toggle.addEventListener('click', () => {
+          dropdown.classList.toggle('show');
+        });
+    
+        // Hide dropdown when a link is clicked
+        menu.addEventListener('click', (event) => {
+          if (event.target.tagName === 'A') {
+            dropdown.classList.remove('show');
+          }
+        });
+      </script>
+ </body>
+</html> 
