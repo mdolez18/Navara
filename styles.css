@@ -426,14 +426,13 @@ footer p:first-of-type{
   transition: 0.2s ease;
 }
 
-
 .map{
   margin-left: 5vw; 
   max-width: 100%;
 }
 
-.info:last-of-type{
-  font-size: 1.1rem;
+.contact{
+    line-height: 1.8
 }
 
 @media (min-width:1200px){
